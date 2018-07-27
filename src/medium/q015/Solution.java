@@ -2,6 +2,7 @@ package medium.q015;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -10,35 +11,35 @@ import java.util.List;
  */
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        assert nums.length > 2;
+        if (nums.length < 3) {
+            return Collections.emptyList();
+        }
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
 
-        Integer lastI = null;
         for (int i = 0; i < nums.length; i++) {
-            if (isDuplicate(lastI, nums[i])) {
+            if (nums[i] > 0) {
+                break;
+            }
+            if (i != 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
-            lastI = nums[i];
             int j = i + 1;
             int k = nums.length - 1;
-            Integer lastJ = null;
             while (j < k) {
-                if (isDuplicate(lastJ, nums[j])) {
+                if (j != i + 1 && nums[j] == nums[j - 1]) {
                     j++;
                     continue;
                 }
-                lastJ = nums[j];
                 int sum = sum(nums, i, j, k);
                 if (sum > 0) {
                     k--;
-                    // 移动k时, j不做验重比较
-                    lastJ = null;
                 } else if (sum < 0) {
                     j++;
                 } else {
                     list.add(fill(nums, i, j, k));
                     j++;
+                    k--;
                 }
             }
         }
@@ -54,7 +55,4 @@ public class Solution {
         return Arrays.asList(nums[i], nums[j], nums[k]);
     }
 
-    private boolean isDuplicate(Integer last, int current) {
-        return last != null && last == current;
-    }
 }
