@@ -79,6 +79,7 @@
 | 68   | [Text Justification][068]                        | String                                            |
 
 
+[003]: src/medium/q003/README.md
 [015]: src/medium/q015/README.md
 [049]: src/medium/q049/README.md
 [073]: src/medium/q073/README.md
