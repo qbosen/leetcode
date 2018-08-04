@@ -61,6 +61,7 @@
 | 49   | [Group Anagrams][049]                                 | Hash Table, String               |
 | 50   | [Pow(x, n)][050]                                      | Math, Binary Search              |
 | 56   | [Merge Intervals][056]                                | Array, Sort                      |
+| 73   | [Set Matrix Zeroes][073]                              | Array                            |
 | 554  | [Brick Wall][554]                                     | Hash Table                       |
 
 
@@ -79,3 +80,5 @@
 
 
 [015]: src/medium/q015/README.md
+[049]: src/medium/q049/README.md
+[073]: src/medium/q073/README.md
