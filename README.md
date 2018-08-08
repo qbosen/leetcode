@@ -62,6 +62,7 @@
 | 50   | [Pow(x, n)][050]                                      | Math, Binary Search              |
 | 56   | [Merge Intervals][056]                                | Array, Sort                      |
 | 73   | [Set Matrix Zeroes][073]                              | Array                            |
+| 334  | [Increasing Triplet Subsequence][334]                 | Array                            |
 | 554  | [Brick Wall][554]                                     | Hash Table                       |
 
 
@@ -79,8 +80,10 @@
 | 68   | [Text Justification][068]                        | String                                            |
 
 
+[002]: src/medium/q002/README.md
 [003]: src/medium/q003/README.md
 [005]: src/medium/q005/README.md
 [015]: src/medium/q015/README.md
 [049]: src/medium/q049/README.md
 [073]: src/medium/q073/README.md
+[334]: src/medium/q334/README.md
