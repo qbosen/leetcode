@@ -28,4 +28,11 @@ public class ListNodeUtils {
         }
         return false;
     }
+
+    public static ListNode findLastNode(ListNode node) {
+        while (node != null && node.next != null) {
+            node = node.next;
+        }
+        return node;
+    }
 }
