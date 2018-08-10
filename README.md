@@ -34,6 +34,7 @@
 | 119  | [Pascal's Triangle II][119]                       | Array                                          |
 | 121  | [Best Time to Buy and Sell Stock][121]            | Array, Dynamic Programmin                      |
 | 122  | [Best Time to Buy and Sell Stock II][122]         | Array, Greedy                                  |
+| 160  | [Intersection of Two Linked Lists][160]           | Linked List                                    |
 | 543  | [Diameter of Binary Tree][543]                    | Tree                                           |
 
 
@@ -80,6 +81,8 @@
 | 57   | [Insert Interval][057]                           | Array, Sort                                       |
 | 68   | [Text Justification][068]                        | String                                            |
 
+
+[160]: src/easy/q160/README.md
 
 [002]: src/medium/q002/README.md
 [003]: src/medium/q003/README.md
