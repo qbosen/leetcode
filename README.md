@@ -63,8 +63,8 @@
 | 50   | [Pow(x, n)][050]                                      | Math, Binary Search              |
 | 56   | [Merge Intervals][056]                                | Array, Sort                      |
 | 73   | [Set Matrix Zeroes][073]                              | Array                            |
-| 94   | [Binary Tree Inorder Traversal][094]                  | Tree                            |
-| 103  | [Binary Tree Zigzag Level Order Traversal][103]      | Tree                            |
+| 94   | [Binary Tree Inorder Traversal][094]                  | Tree                             |
+| 103  | [Binary Tree Zigzag Level Order Traversal][103]       | Tree                             |
 | 328  | [Odd Even Linked List][328]                           | Linked List                      |
 | 334  | [Increasing Triplet Subsequence][334]                 | Array                            |
 | 554  | [Brick Wall][554]                                     | Hash Table                       |
