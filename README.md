@@ -64,6 +64,7 @@
 | 56   | [Merge Intervals][056]                                | Array, Sort                      |
 | 73   | [Set Matrix Zeroes][073]                              | Array                            |
 | 94   | [Binary Tree Inorder Traversal][094]                  | Tree                            |
+| 103   | [Binary Tree Zigzag Level Order Traversal][103]      | Tree                            |
 | 328  | [Odd Even Linked List][328]                           | Linked List                      |
 | 334  | [Increasing Triplet Subsequence][334]                 | Array                            |
 | 554  | [Brick Wall][554]                                     | Hash Table                       |
@@ -92,5 +93,6 @@
 [049]: src/medium/q049/README.md
 [073]: src/medium/q073/README.md
 [094]: src/medium/q094/README.md
+[103]: src/medium/q103/README.md
 [328]: src/medium/q328/README.md
 [334]: src/medium/q334/README.md
