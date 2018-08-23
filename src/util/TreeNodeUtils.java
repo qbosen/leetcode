@@ -22,5 +22,17 @@ public class TreeNodeUtils {
         return node;
     }
 
+    public static boolean equals(TreeNode treeA, TreeNode treeB) {
+        if (treeA == treeB) {
+            return true;
+        } else if (treeA == null || treeB == null) {
+            // both are null will be handled on condition 'a == b'
+            return false;
+        } else if (treeA.val != treeB.val) {
+            return false;
+        } else {
+            return equals(treeA.left, treeB.left) && equals(treeA.right, treeB.right);
+        }
+    }
 
 }
