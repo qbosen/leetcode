@@ -40,34 +40,35 @@
 
 ## Medium
 
-| #    | Title                                                 | Tag                              |
-| :--- | :---------------------------------------------------- | :------------------------------- |
-| 2    | [Add Two Numbers][002]                                | Linked List, Math                |
-| 3    | [Longest Substring Without Repeating Characters][003] | Hash Table, Two Pointers, String |
-| 5    | [Longest Palindromic Substring][005]                  | String, Dynamic Programming      |
-| 6    | [ZigZag Conversion][006]                              | String                           |
-| 8    | [String to Integer (atoi)][008]                       | Math, String                     |
-| 11   | [Container With Most Water][011]                      | Array, Two Pointers              |
-| 12   | [Integer to Roman][012]                               | Math, String                     |
-| 15   | [3Sum][015]                                           | Array, Two Pointers              |
-| 15   | [3Sum Closest][016]                                   | Array, Two Pointers              |
-| 17   | [Letter Combinations of a Phone Number][017]          | String, Backtracking             |
-| 18   | [4Sum][018]                                           | Array, Hash Table, Two Pointers  |
-| 19   | [Remove Nth Node From End of List][019]               | Linked List, Two Pointers        |
-| 22   | [Generate Parentheses][022]                           | String, Backtracking             |
-| 24   | [Swap Nodes in Pairs][024]                            | Linked List                      |
-| 29   | [Divide Two Integers][029]                            | Math, Binary Search              |
-| 33   | [Search in Rotated Sorted Array][033]                 | Arrays, Binary Search            |
-| 43   | [Multiply Strings][043]                               | Math, String                     |
-| 49   | [Group Anagrams][049]                                 | Hash Table, String               |
-| 50   | [Pow(x, n)][050]                                      | Math, Binary Search              |
-| 56   | [Merge Intervals][056]                                | Array, Sort                      |
-| 73   | [Set Matrix Zeroes][073]                              | Array                            |
-| 94   | [Binary Tree Inorder Traversal][094]                  | Tree                             |
-| 103  | [Binary Tree Zigzag Level Order Traversal][103]       | Tree                             |
-| 328  | [Odd Even Linked List][328]                           | Linked List                      |
-| 334  | [Increasing Triplet Subsequence][334]                 | Array                            |
-| 554  | [Brick Wall][554]                                     | Hash Table                       |
+| #    | Title                                                              | Tag                              |
+| :--- | :----------------------------------------------------              | :------------------------------- |
+| 2    | [Add Two Numbers][002]                                             | Linked List, Math                |
+| 3    | [Longest Substring Without Repeating Characters][003]              | Hash Table, Two Pointers, String |
+| 5    | [Longest Palindromic Substring][005]                               | String, Dynamic Programming      |
+| 6    | [ZigZag Conversion][006]                                           | String                           |
+| 8    | [String to Integer (atoi)][008]                                    | Math, String                     |
+| 11   | [Container With Most Water][011]                                   | Array, Two Pointers              |
+| 12   | [Integer to Roman][012]                                            | Math, String                     |
+| 15   | [3Sum][015]                                                        | Array, Two Pointers              |
+| 15   | [3Sum Closest][016]                                                | Array, Two Pointers              |
+| 17   | [Letter Combinations of a Phone Number][017]                       | String, Backtracking             |
+| 18   | [4Sum][018]                                                        | Array, Hash Table, Two Pointers  |
+| 19   | [Remove Nth Node From End of List][019]                            | Linked List, Two Pointers        |
+| 22   | [Generate Parentheses][022]                                        | String, Backtracking             |
+| 24   | [Swap Nodes in Pairs][024]                                         | Linked List                      |
+| 29   | [Divide Two Integers][029]                                         | Math, Binary Search              |
+| 33   | [Search in Rotated Sorted Array][033]                              | Arrays, Binary Search            |
+| 43   | [Multiply Strings][043]                                            | Math, String                     |
+| 49   | [Group Anagrams][049]                                              | Hash Table, String               |
+| 50   | [Pow(x, n)][050]                                                   | Math, Binary Search              |
+| 56   | [Merge Intervals][056]                                             | Array, Sort                      |
+| 73   | [Set Matrix Zeroes][073]                                           | Array                            |
+| 94   | [Binary Tree Inorder Traversal][094]                               | Tree                             |
+| 103  | [Binary Tree Zigzag Level Order Traversal][103]                    | Tree                             |
+| 105  | [Construct Binary Tree from Preorder and Inorder Traversal][105]   | Tree, Depth-first Search, Array  |
+| 328  | [Odd Even Linked List][328]                                        | Linked List                      |
+| 334  | [Increasing Triplet Subsequence][334]                              | Array                            |
+| 554  | [Brick Wall][554]                                                  | Hash Table                       |
 
 
 ## Hard
@@ -94,5 +95,6 @@
 [073]: src/medium/q073/README.md
 [094]: src/medium/q094/README.md
 [103]: src/medium/q103/README.md
+[105]: src/medium/q105/README.md
 [328]: src/medium/q328/README.md
 [334]: src/medium/q334/README.md
