@@ -66,6 +66,7 @@
 | 94   | [Binary Tree Inorder Traversal][094]                               | Tree                             |
 | 103  | [Binary Tree Zigzag Level Order Traversal][103]                    | Tree                             |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal][105]   | Tree, Depth-first Search, Array  |
+| 116  | [Populating Next Right Pointers in Each Node][116]                 |Tree, Depth-first Search          |
 | 328  | [Odd Even Linked List][328]                                        | Linked List                      |
 | 334  | [Increasing Triplet Subsequence][334]                              | Array                            |
 | 554  | [Brick Wall][554]                                                  | Hash Table                       |
@@ -96,5 +97,6 @@
 [094]: src/medium/q094/README.md
 [103]: src/medium/q103/README.md
 [105]: src/medium/q105/README.md
+[116]: src/medium/q116/README.md
 [328]: src/medium/q328/README.md
 [334]: src/medium/q334/README.md
