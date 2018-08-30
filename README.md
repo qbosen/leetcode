@@ -59,6 +59,7 @@
 | 29   | [Divide Two Integers][029]                                         | Math, Binary Search              |
 | 33   | [Search in Rotated Sorted Array][033]                              | Arrays, Binary Search            |
 | 43   | [Multiply Strings][043]                                            | Math, String                     |
+| 46   | [Permutations][046]                                                | Backtracking                     |
 | 49   | [Group Anagrams][049]                                              | Hash Table, String               |
 | 50   | [Pow(x, n)][050]                                                   | Math, Binary Search              |
 | 56   | [Merge Intervals][056]                                             | Array, Sort                      |
@@ -66,9 +67,9 @@
 | 94   | [Binary Tree Inorder Traversal][094]                               | Tree                             |
 | 103  | [Binary Tree Zigzag Level Order Traversal][103]                    | Tree                             |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal][105]   | Tree, Depth-first Search, Array  |
-| 116  | [Populating Next Right Pointers in Each Node][116]                 |Tree, Depth-first Search          |
-| 200  | [Number of Islands][200]                                           |Depth-first Search, Breadth-first Search, Union Find|
-| 230  | [Kth Smallest Element in a BST][230]                               |Tree, Binary Search               |
+| 116  | [Populating Next Right Pointers in Each Node][116]                 | Tree, Depth-first Search         |
+| 200  | [Number of Islands][200]                                           | Depth-first Search, Breadth-first Search, Union Find|
+| 230  | [Kth Smallest Element in a BST][230]                               | Tree, Binary Search              |
 | 328  | [Odd Even Linked List][328]                                        | Linked List                      |
 | 334  | [Increasing Triplet Subsequence][334]                              | Array                            |
 | 554  | [Brick Wall][554]                                                  | Hash Table                       |
@@ -96,6 +97,7 @@
 [015]: src/medium/q015/README.md
 [017]: src/medium/q017/README.md
 [022]: src/medium/q022/README.md
+[046]: src/medium/q046/README.md
 [049]: src/medium/q049/README.md
 [073]: src/medium/q073/README.md
 [094]: src/medium/q094/README.md
