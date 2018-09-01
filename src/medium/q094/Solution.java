@@ -4,6 +4,7 @@ import structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author abosen
@@ -11,17 +12,21 @@ import java.util.List;
  */
 public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
         List<Integer> list = new ArrayList<>();
-        inorderAdd(list, root);
-        return list;
-    }
+        TreeNode node = root;
 
-    private void inorderAdd(List<Integer> list, TreeNode node) {
-        if (node == null) {
-            return;
+        while (node != null || !stack.isEmpty()) {
+            if (node != null) {
+                stack.push(node);
+                node = node.left;
+            } else {
+                node = stack.pop();
+                list.add(node.val);
+                node = node.right;
+            }
         }
-        inorderAdd(list, node.left);
-        list.add(node.val);
-        inorderAdd(list, node.right);
+
+        return list;
     }
 }
