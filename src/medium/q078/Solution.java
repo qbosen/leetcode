@@ -9,21 +9,17 @@ import java.util.List;
  */
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        ArrayList<List<Integer>> lists = new ArrayList<>();
-        backtracking(nums, 0, new ArrayList<>(), lists);
+        List<List<Integer>> lists = new ArrayList<>();
+        backtracking(lists, new ArrayList<>(), 0, nums);
         return lists;
     }
 
-    private void backtracking(int[] nums, int idx, List<Integer> temp, List<List<Integer>> list) {
-        if (idx == nums.length) {
-            list.add(new ArrayList<>(temp));
-        } else {
-            backtracking(nums, idx + 1, temp, list);
-            temp.add(nums[idx]);
-            backtracking(nums, idx + 1, temp, list);
+    private void backtracking(List<List<Integer>> lists, List<Integer> temp, int start, int[] nums) {
+        lists.add(new ArrayList<>(temp));
+        for (int i = start; i < nums.length; i++) {
+            temp.add(nums[i]);
+            backtracking(lists, temp, i + 1, nums);
             temp.remove(temp.size() - 1);
         }
-
     }
 }
-
