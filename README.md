@@ -1,96 +1,43 @@
-## Easy
+## 简单
 
-| #    | Title                                             | Tag                                            |
-| :--- | :------------------------------------------------ | :--------------------------------------------- |
-| 1    | [Two Sum][001]                                    | Array, Hash Table                              |
-| 7    | [Reverse Integer][007]                            | Math                                           |
-| 9    | [Palindrome Number][009]                          | Math                                           |
-| 13   | [Roman to Integer][013]                           | Math, String                                   |
-| 14   | [Longest Common Prefix][014]                      | String                                         |
-| 20   | [Valid Parentheses][020]                          | Stack, String                                  |
-| 21   | [Merge Two Sorted Lists][021]                     | Linked List                                    |
-| 26   | [Remove Duplicates from Sorted Array][026]        | Array, Two Pointers                            |
-| 27   | [Remove Element][027]                             | Array, Two Pointers                            |
-| 28   | [Implement strStr()][028]                         | Two Pointers, String                           |
-| 35   | [Search Insert Position][035]                     | String                                         |
-| 38   | [Count and Say][038]                              | String                                         |
-| 53   | [Maximum Subarray][053]                           | Array, Divide and Conquer, Dynamic Programming |
-| 58   | [Length of Last Word][058]                        | String                                         |
-| 66   | [Plus One][066]                                   | Array, Math                                    |
-| 67   | [Add Binary][067]                                 | Math, String                                   |
-| 69   | [Sqrt(x)][069]                                    | Binary Search, Math                            |
-| 70   | [Climbing Stairs][070]                            | Dynamic Programming                            |
-| 83   | [Remove Duplicates from Sorted List][083]         | Linked List                                    |
-| 88   | [Merge Sorted Array][088]                         | Array, Two Pointers                            |
-| 100  | [Same Tree][100]                                  | Tree, Depth-first Search                       |
-| 101  | [Symmetric Tree][101]                             | Tree, Depth-first Search, Breadth-first Search |
-| 104  | [Maximum Depth of Binary Tree][104]               | Tree, Depth-first Search                       |
-| 107  | [Binary Tree Level Order Traversal II][107]       | Tree, Breadth-first Search                     |
-| 108  | [Convert Sorted Array to Binary Search Tree][108] | Tree, Depth-first Search                       |
-| 110  | [Balanced Binary Tree][110]                       | Tree, Depth-first Search                       |
-| 111  | [Minimum Depth of Binary Tree][111]               | Tree, Depth-first Search, Breadth-first Search |
-| 112  | [Path Sum][112]                                   | Tree, Depth-first Search                       |
-| 118  | [Pascal's Triangle][118]                          | Array                                          |
-| 119  | [Pascal's Triangle II][119]                       | Array                                          |
-| 121  | [Best Time to Buy and Sell Stock][121]            | Array, Dynamic Programmin                      |
-| 122  | [Best Time to Buy and Sell Stock II][122]         | Array, Greedy                                  |
-| 160  | [Intersection of Two Linked Lists][160]           | Linked List                                    |
-| 543  | [Diameter of Binary Tree][543]                    | Tree                                           |
+| 题号 | 标题 | 标签 |
+| :--- | :--- | :--- |
+| 160 | [相交链表][160] | 链表 |
 
+## 中等
 
-## Medium
+| 题号 | 标题 | 标签 |
+| :--- | :--- | :--- |
+| 2 | [两数相加][002] | 链表, 数学 |
+| 3 | [无重复字符的最长子串][003] | 哈希表, 双指针, 字符串 |
+| 5 | [最长回文子串][005] | 字符串, 动态规划 |
+| 15 | [三数之和][015] | 数组, 双指针 |
+| 17 | [电话号码的字母组合][017] | 字符串, 回溯算法 |
+| 22 | [括号生成][022] | 字符串, 回溯算法 |
+| 46 | [全排列][046] | 回溯算法 |
+| 49 | [字母异位词分组][049] | 哈希表, 字符串 |
+| 73 | [矩阵置零][073] | 数组 |
+| 78 | [子集][078] | 位运算, 数组, 回溯算法 |
+| 79 | [单词搜索][079] | 数组, 回溯算法 |
+| 94 | [二叉树的中序遍历][094] | 栈, 树, 哈希表 |
+| 103 | [二叉树的锯齿形层次遍历][103] | 栈, 树, 广度优先搜索 |
+| 105 | [从前序与中序遍历序列构造二叉树][105] | 树, 深度优先搜索, 数组 |
+| 116 | [填充同一层的兄弟节点][116] | 树, 深度优先搜索 |
+| 200 | [岛屿的个数][200] | 深度优先搜索, 广度优先搜索, 并查集 |
+| 230 | [二叉搜索树中第K小的元素][230] | 树, 二分查找 |
+| 328 | [奇偶链表][328] | 链表 |
+| 334 | [递增的三元子序列][334] |  |
 
-| #    | Title                                                              | Tag                              |
-| :--- | :----------------------------------------------------              | :------------------------------- |
-| 2    | [Add Two Numbers][002]                                             | Linked List, Math                |
-| 3    | [Longest Substring Without Repeating Characters][003]              | Hash Table, Two Pointers, String |
-| 5    | [Longest Palindromic Substring][005]                               | String, Dynamic Programming      |
-| 6    | [ZigZag Conversion][006]                                           | String                           |
-| 8    | [String to Integer (atoi)][008]                                    | Math, String                     |
-| 11   | [Container With Most Water][011]                                   | Array, Two Pointers              |
-| 12   | [Integer to Roman][012]                                            | Math, String                     |
-| 15   | [3Sum][015]                                                        | Array, Two Pointers              |
-| 15   | [3Sum Closest][016]                                                | Array, Two Pointers              |
-| 17   | [Letter Combinations of a Phone Number][017]                       | String, Backtracking             |
-| 18   | [4Sum][018]                                                        | Array, Hash Table, Two Pointers  |
-| 19   | [Remove Nth Node From End of List][019]                            | Linked List, Two Pointers        |
-| 22   | [Generate Parentheses][022]                                        | String, Backtracking             |
-| 24   | [Swap Nodes in Pairs][024]                                         | Linked List                      |
-| 29   | [Divide Two Integers][029]                                         | Math, Binary Search              |
-| 33   | [Search in Rotated Sorted Array][033]                              | Arrays, Binary Search            |
-| 43   | [Multiply Strings][043]                                            | Math, String                     |
-| 46   | [Permutations][046]                                                | Backtracking                     |
-| 49   | [Group Anagrams][049]                                              | Hash Table, String               |
-| 50   | [Pow(x, n)][050]                                                   | Math, Binary Search              |
-| 56   | [Merge Intervals][056]                                             | Array, Sort                      |
-| 73   | [Set Matrix Zeroes][073]                                           | Array                            |
-| 94   | [Binary Tree Inorder Traversal][094]                               | Tree                             |
-| 103  | [Binary Tree Zigzag Level Order Traversal][103]                    | Tree                             |
-| 105  | [Construct Binary Tree from Preorder and Inorder Traversal][105]   | Tree, Depth-first Search, Array  |
-| 116  | [Populating Next Right Pointers in Each Node][116]                 | Tree, Depth-first Search         |
-| 200  | [Number of Islands][200]                                           | Depth-first Search, Breadth-first Search, Union Find|
-| 230  | [Kth Smallest Element in a BST][230]                               | Tree, Binary Search              |
-| 328  | [Odd Even Linked List][328]                                        | Linked List                      |
-| 334  | [Increasing Triplet Subsequence][334]                              | Array                            |
-| 554  | [Brick Wall][554]                                                  | Hash Table                       |
+## 困难
 
+| 题号 | 标题 | 标签 |
+| :--- | :--- | :--- |
 
-## Hard
-
-| #    | Title                                            | Tag                                               |
-| :--- | :----------------------------------------------- | :------------------------------------------------ |
-| 4    | [Median of Two Sorted Arrays][004]               | Array, Binary Search, Divide and Conquer          |
-| 10   | [Regular Expression Matching][010]               | String, Dynamic Programming, Backtracking         |
-| 23   | [Merge k Sorted Lists][023]                      | Linked List, Divide and Conquer, Heap             |
-| 25   | [Reverse Nodes in k-Group][025]                  | Linked List                                       |
-| 30   | [Substring with Concatenation of All Words][030] | Hash Table, Two Pointers, String                  |
-| 44   | [Wildcard Matching][044]                         | String, Dynamic Programming, Backtracking, Greedy |
-| 57   | [Insert Interval][057]                           | Array, Sort                                       |
-| 68   | [Text Justification][068]                        | String                                            |
-
-
+<!-- 简单 -->
 [160]: src/easy/q160/README.md
 
+
+<!-- 中等 -->
 [002]: src/medium/q002/README.md
 [003]: src/medium/q003/README.md
 [005]: src/medium/q005/README.md
@@ -100,6 +47,8 @@
 [046]: src/medium/q046/README.md
 [049]: src/medium/q049/README.md
 [073]: src/medium/q073/README.md
+[078]: src/medium/q078/README.md
+[079]: src/medium/q079/README.md
 [094]: src/medium/q094/README.md
 [103]: src/medium/q103/README.md
 [105]: src/medium/q105/README.md
@@ -108,3 +57,8 @@
 [230]: src/medium/q230/README.md
 [328]: src/medium/q328/README.md
 [334]: src/medium/q334/README.md
+
+
+<!-- 困难 -->
+
+
