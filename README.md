@@ -17,6 +17,7 @@
 | 46 | [全排列][046] | 回溯算法 |
 | 49 | [字母异位词分组][049] | 哈希表, 字符串 |
 | 73 | [矩阵置零][073] | 数组 |
+| 75 | [颜色分类][075] | 排序, 数组, 双指针 |
 | 78 | [子集][078] | 位运算, 数组, 回溯算法 |
 | 79 | [单词搜索][079] | 数组, 回溯算法 |
 | 94 | [二叉树的中序遍历][094] | 栈, 树, 哈希表 |
@@ -47,6 +48,7 @@
 [046]: src/medium/q046/README.md
 [049]: src/medium/q049/README.md
 [073]: src/medium/q073/README.md
+[075]: src/medium/q075/README.md
 [078]: src/medium/q078/README.md
 [079]: src/medium/q079/README.md
 [094]: src/medium/q094/README.md
