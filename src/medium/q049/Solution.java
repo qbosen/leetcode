@@ -4,27 +4,22 @@ import java.util.*;
 
 /**
  * @author abosen
- * @date 2018/8/4
+ * @date 2018/09/08
  */
-public class Solution {
 
+public class Solution implements Answer {
+    @Override
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List<String>> map = new HashMap<>();
-
-        for (String str : strs) {
-            char[] chars = str.toCharArray();
-            Arrays.sort(chars);
-            String key = new String(chars);
-            if (map.containsKey(key)) {
-                map.get(key).add(str);
-            } else {
-                List<String> list = new ArrayList<>();
-                list.add(str);
-                map.put(key, list);
+        Map<String, List<String>> map = new HashMap<>(8);
+        for (int i = 0; i < strs.length; i++) {
+            char[] arr = strs[i].toCharArray();
+            Arrays.sort(arr);
+            String key = new String(arr);
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
             }
+            map.get(key).add(strs[i]);
         }
-
-        List<List<String>> result = new ArrayList<>(map.values());
-        return result;
+        return new ArrayList<>(map.values()) ;
     }
 }
