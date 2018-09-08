@@ -5,7 +5,7 @@
 |中文名|颜色分类|
 |英文名|Sort Colors|
 |难度|Medium|
-|通过率|47.7%|
+|通过率|47.5%|
 |链接|[sort-colors](https://leetcode-cn.com/problems/sort-colors/description/)|
 |标签|排序, 数组, 双指针|
 |topics|Sort, Array, Two Pointers|
@@ -33,5 +33,5 @@
 
 
 
-### 思路 2018/09/05
-两个指针标示0，2位置, 三路快排
+### 思路 2018/09/08
+l左边都是0，r右边都是2，i从l到r遍历
