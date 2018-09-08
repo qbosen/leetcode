@@ -1,8 +1,6 @@
 package util;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author abosen
@@ -38,5 +36,20 @@ public class CollectionUtils {
             }
         }
         return true;
+    }
+
+    public static <T> boolean isEqualDualList(List<? extends List<? extends Comparable>> a, List<? extends List<? extends Comparable>> b) {
+        List<String> aList = new ArrayList<>();
+        a.forEach(l -> {
+            l.sort(Comparator.naturalOrder());
+            aList.add(l.toString());
+        });
+        List<String> bList = new ArrayList<>();
+        b.forEach(l -> {
+            l.sort(Comparator.naturalOrder());
+            bList.add(l.toString());
+        });
+
+        return isEqualCollection(aList, bList);
     }
 }
