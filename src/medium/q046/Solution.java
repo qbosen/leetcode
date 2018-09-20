@@ -5,11 +5,13 @@ import java.util.List;
 
 /**
  * @author abosen
- * @date 2018/08/30
+ * @date 2018/09/20
  */
-class Solution {
+
+public class Solution implements Answer {
+    @Override
     public List<List<Integer>> permute(int[] nums) {
-        ArrayList<List<Integer>> lists = new ArrayList<>();
+        List<List<Integer>> lists = new ArrayList<>();
         backtracking(lists, new ArrayList<>(), nums);
         return lists;
     }
@@ -17,16 +19,15 @@ class Solution {
     private void backtracking(List<List<Integer>> list, List<Integer> tempList, int[] nums) {
         if (tempList.size() == nums.length) {
             list.add(new ArrayList<>(tempList));
-        } else {
-            for (int num : nums) {
-                if (tempList.contains(num))
-                    continue;
-                tempList.add(num);
-                backtracking(list, tempList, nums);
-                tempList.remove(tempList.size() - 1);
+            return;
+        }
+        for (int num : nums) {
+            if (tempList.contains(num)) {
+                continue;
             }
+            tempList.add(num);
+            backtracking(list, tempList, nums);
+            tempList.remove(tempList.size() - 1);
         }
     }
-
 }
-

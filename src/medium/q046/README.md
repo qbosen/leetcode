@@ -5,8 +5,8 @@
 |中文名|全排列|
 |英文名|Permutations|
 |难度|Medium|
-|通过率|60.3%|
-|链接|[permutations](https://leetcode-cn.com/problems/permutations/description/)
+|通过率|60.6%|
+|链接|[permutations](https://leetcode-cn.com/problems/permutations/description/)|
 |标签|回溯算法|
 |topics|Backtracking|
 
@@ -30,5 +30,5 @@
 
 
 
-### 思路 2018/08/30
-回溯就完事了
+### 思路 2018/09/20
+递归添加所有数，如果存在就跳过。
