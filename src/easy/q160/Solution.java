@@ -3,36 +3,39 @@ package easy.q160;
 import structure.ListNode;
 
 /**
- * @author abosen
- * @date 2018/8/10
+ * @author qiubaisen
+ * @date 2018/10/15
  */
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        int l1 = countNode(headA);
-        int l2 = countNode(headB);
-        for (int i = 0; i < l1 - l2; i++) {
-            headA = headA.next;
-        }
-        for (int i = 0; i < l2 - l1; i++) {
-            headB = headB.next;
-        }
 
-        while (headA != null && headB != null) {
-            if (headA == headB) {
-                return headA;
+public class Solution implements Answer {
+    @Override
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        int countA = countNode(headA);
+        int countB = countNode(headB);
+
+        while (countA != countB) {
+            if (countA > countB) {
+                countA--;
+                headA = headA.next;
+            } else {
+                countB--;
+                headB = headB.next;
             }
+        }
+        while (headA != null && headB != null && headA != headB) {
             headA = headA.next;
             headB = headB.next;
         }
-        return null;
+        return headA;
     }
 
+
     private int countNode(ListNode node) {
-        int count = 0;
+        int i = 0;
         while (node != null) {
-            count++;
             node = node.next;
+            i++;
         }
-        return count;
+        return i;
     }
 }
