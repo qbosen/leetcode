@@ -7,26 +7,26 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author abosen
- * @date 2018/8/13
+ * @author qiubaisen
+ * @date 2018/10/16
  */
-public class Solution {
+
+public class Solution implements Answer {
+    @Override
     public List<Integer> inorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> list = new ArrayList<>();
-        TreeNode node = root;
 
-        while (node != null || !stack.isEmpty()) {
-            if (node != null) {
-                stack.push(node);
-                node = node.left;
+        while (root != null || !stack.empty()) {
+            if (root != null) {
+                stack.push(root);
+                root = root.left;
             } else {
-                node = stack.pop();
-                list.add(node.val);
-                node = node.right;
+                root = stack.pop();
+                list.add(root.val);
+                root = root.right;
             }
         }
-
         return list;
     }
 }
