@@ -19,7 +19,7 @@ public class SolutionTest {
     @BeforeClass
     public static void init() {
         cloner = new Cloner();
-        answers = new Answer[]{new Solution()};
+        answers = new Answer[]{new Solution(), new ReverseTraversal()};
     }
 
     @Test
