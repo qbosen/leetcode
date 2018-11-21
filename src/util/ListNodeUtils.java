@@ -35,4 +35,15 @@ public class ListNodeUtils {
         }
         return node;
     }
+
+    public static String toString(ListNode node) {
+        StringBuilder builder = new StringBuilder("ListNode[");
+        while (node != null) {
+            builder.append(node.val);
+            builder.append(',');
+            node = node.next;
+        }
+        builder.append("null]");
+        return builder.toString();
+    }
 }
